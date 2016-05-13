@@ -33,4 +33,4 @@ Write an application that:
 
 
     - SecondPage: This is a Second page when you click "current weather" on navigation bar on firstViewcontroller. 
-        - To get current users location weather report for 7 days in a custom tableview with tableViewHeader of customized date format. 
+        - To get current users location weather report for 7 days in a custom tableview with tableViewHeader of customized date format. # MCodingChallenge
