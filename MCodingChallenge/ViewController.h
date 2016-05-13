@@ -7,9 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController<CLLocationManagerDelegate, UITableViewDelegate,UITableViewDataSource> {
+    
+    CLLocationManager *locationManager;
+    CLGeocoder *geoCoder;
+    CLPlacemark *placeMark;
+        
+    CLLocation *crnLoc;
+    
+    NSArray *weatherArray;
+    
+    
+    __weak IBOutlet UILabel *cityCountryLabel;
+
+    __weak IBOutlet UITableView *weatherTableview;
+}
+
+-(void)getCurrentLocation;
 
 @end
 

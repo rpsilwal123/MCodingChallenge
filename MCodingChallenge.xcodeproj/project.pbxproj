@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449225B0F912CBD5E7F826AF /* libPods-MCodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD64BFBA986EBA1FB5CCABE /* libPods-MCodingChallenge.a */; };
+		BB1AFE581CE5558200314FAF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1AFE571CE5558200314FAF /* Social.framework */; };
 		BB4ABBDE1CE39C4A0096DA35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABBDD1CE39C4A0096DA35 /* main.m */; };
 		BB4ABBE11CE39C4A0096DA35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABBE01CE39C4A0096DA35 /* AppDelegate.m */; };
 		BB4ABBE41CE39C4A0096DA35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABBE31CE39C4A0096DA35 /* ViewController.m */; };
@@ -14,6 +16,15 @@
 		BB4ABBE91CE39C4A0096DA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4ABBE81CE39C4A0096DA35 /* Assets.xcassets */; };
 		BB4ABBEC1CE39C4A0096DA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4ABBEA1CE39C4A0096DA35 /* LaunchScreen.storyboard */; };
 		BB4ABBF71CE39C4A0096DA35 /* MCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABBF61CE39C4A0096DA35 /* MCodingChallengeTests.m */; };
+		BB4ABC051CE39DAB0096DA35 /* BackendUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABC041CE39DAB0096DA35 /* BackendUtility.m */; };
+		BB4ABC081CE3A28A0096DA35 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ABC071CE3A28A0096DA35 /* MapKit.framework */; };
+		BB4ABC0A1CE3A2920096DA35 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ABC091CE3A2920096DA35 /* CoreLocation.framework */; };
+		BB4ABC0C1CE3A2A00096DA35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ABC0B1CE3A2A00096DA35 /* QuartzCore.framework */; };
+		BB4ABC0E1CE3A2A90096DA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ABC0D1CE3A2A90096DA35 /* Foundation.framework */; };
+		BB4ABC151CE3A5E80096DA35 /* MTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABC141CE3A5E80096DA35 /* MTableViewCell.m */; };
+		BB4ABC191CE3D6330096DA35 /* UserSearchDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABC181CE3D6330096DA35 /* UserSearchDetailsViewController.m */; };
+		BB4ABC1C1CE3F8240096DA35 /* DetailWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABC1B1CE3F8240096DA35 /* DetailWeather.m */; };
+		BB4ABC201CE3FB530096DA35 /* SearchedWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4ABC1F1CE3FB530096DA35 /* SearchedWeather.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33BBEA08786E75CA6BF3B446 /* Pods-MCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCodingChallenge/Pods-MCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD64BFBA986EBA1FB5CCABE /* libPods-MCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1AFE571CE5558200314FAF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BB4ABBD91CE39C4A0096DA35 /* MCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4ABBDD1CE39C4A0096DA35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB4ABBDF1CE39C4A0096DA35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +54,21 @@
 		BB4ABBF21CE39C4A0096DA35 /* MCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4ABBF61CE39C4A0096DA35 /* MCodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCodingChallengeTests.m; sourceTree = "<group>"; };
 		BB4ABBF81CE39C4A0096DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4ABC031CE39DAB0096DA35 /* BackendUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendUtility.h; sourceTree = "<group>"; };
+		BB4ABC041CE39DAB0096DA35 /* BackendUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackendUtility.m; sourceTree = "<group>"; };
+		BB4ABC071CE3A28A0096DA35 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB4ABC091CE3A2920096DA35 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB4ABC0B1CE3A2A00096DA35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB4ABC0D1CE3A2A90096DA35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB4ABC131CE3A5E80096DA35 /* MTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableViewCell.h; sourceTree = "<group>"; };
+		BB4ABC141CE3A5E80096DA35 /* MTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableViewCell.m; sourceTree = "<group>"; };
+		BB4ABC171CE3D6330096DA35 /* UserSearchDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchDetailsViewController.h; sourceTree = "<group>"; };
+		BB4ABC181CE3D6330096DA35 /* UserSearchDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearchDetailsViewController.m; sourceTree = "<group>"; };
+		BB4ABC1A1CE3F8240096DA35 /* DetailWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWeather.h; sourceTree = "<group>"; };
+		BB4ABC1B1CE3F8240096DA35 /* DetailWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWeather.m; sourceTree = "<group>"; };
+		BB4ABC1E1CE3FB530096DA35 /* SearchedWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedWeather.h; sourceTree = "<group>"; };
+		BB4ABC1F1CE3FB530096DA35 /* SearchedWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedWeather.m; sourceTree = "<group>"; };
+		DC0C80F75A1C7A6FC8ACC4E5 /* Pods-MCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCodingChallenge/Pods-MCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1AFE581CE5558200314FAF /* Social.framework in Frameworks */,
+				BB4ABC0E1CE3A2A90096DA35 /* Foundation.framework in Frameworks */,
+				BB4ABC0C1CE3A2A00096DA35 /* QuartzCore.framework in Frameworks */,
+				BB4ABC0A1CE3A2920096DA35 /* CoreLocation.framework in Frameworks */,
+				BB4ABC081CE3A28A0096DA35 /* MapKit.framework in Frameworks */,
+				449225B0F912CBD5E7F826AF /* libPods-MCodingChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +95,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B86D468580758408E190E2B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33BBEA08786E75CA6BF3B446 /* Pods-MCodingChallenge.debug.xcconfig */,
+				DC0C80F75A1C7A6FC8ACC4E5 /* Pods-MCodingChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1AFE531CE53A3D00314FAF /* CurrentFiveDaysModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABC1A1CE3F8240096DA35 /* DetailWeather.h */,
+				BB4ABC1B1CE3F8240096DA35 /* DetailWeather.m */,
+			);
+			name = CurrentFiveDaysModel;
+			sourceTree = "<group>";
+		};
+		BB1AFE541CE53A4E00314FAF /* UserSearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABC1E1CE3FB530096DA35 /* SearchedWeather.h */,
+				BB4ABC1F1CE3FB530096DA35 /* SearchedWeather.m */,
+			);
+			name = UserSearchModel;
+			sourceTree = "<group>";
+		};
+		BB1AFE551CE53A8700314FAF /* CurrentFiveDaysDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABBE21CE39C4A0096DA35 /* ViewController.h */,
+				BB4ABBE31CE39C4A0096DA35 /* ViewController.m */,
+				BB4ABC161CE3BB240096DA35 /* TableViewCells */,
+			);
+			name = CurrentFiveDaysDetailVC;
+			sourceTree = "<group>";
+		};
+		BB1AFE561CE53AC200314FAF /* UserSearchDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABC171CE3D6330096DA35 /* UserSearchDetailsViewController.h */,
+				BB4ABC181CE3D6330096DA35 /* UserSearchDetailsViewController.m */,
+			);
+			name = UserSearchDetailsVC;
+			sourceTree = "<group>";
+		};
 		BB4ABBD01CE39C4A0096DA35 = {
 			isa = PBXGroup;
 			children = (
 				BB4ABBDB1CE39C4A0096DA35 /* MCodingChallenge */,
 				BB4ABBF51CE39C4A0096DA35 /* MCodingChallengeTests */,
+				BB4ABC0F1CE3A2C00096DA35 /* Frameworks */,
 				BB4ABBDA1CE39C4A0096DA35 /* Products */,
+				B86D468580758408E190E2B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +164,10 @@
 		BB4ABBDB1CE39C4A0096DA35 /* MCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				BB4ABBDF1CE39C4A0096DA35 /* AppDelegate.h */,
-				BB4ABBE01CE39C4A0096DA35 /* AppDelegate.m */,
-				BB4ABBE21CE39C4A0096DA35 /* ViewController.h */,
-				BB4ABBE31CE39C4A0096DA35 /* ViewController.m */,
-				BB4ABBE51CE39C4A0096DA35 /* Main.storyboard */,
-				BB4ABBE81CE39C4A0096DA35 /* Assets.xcassets */,
-				BB4ABBEA1CE39C4A0096DA35 /* LaunchScreen.storyboard */,
-				BB4ABBED1CE39C4A0096DA35 /* Info.plist */,
+				BB4ABC1D1CE3F82E0096DA35 /* Models */,
+				BB4ABC021CE39D2E0096DA35 /* ViewControllers */,
+				BB4ABC011CE39D230096DA35 /* Storyboards */,
+				BB4ABC061CE39DD10096DA35 /* HelperClasses */,
 				BB4ABBDC1CE39C4A0096DA35 /* Supporting Files */,
 			);
 			path = MCodingChallenge;
@@ -97,6 +176,11 @@
 		BB4ABBDC1CE39C4A0096DA35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB4ABBDF1CE39C4A0096DA35 /* AppDelegate.h */,
+				BB4ABBE01CE39C4A0096DA35 /* AppDelegate.m */,
+				BB4ABBE81CE39C4A0096DA35 /* Assets.xcassets */,
+				BB4ABBEA1CE39C4A0096DA35 /* LaunchScreen.storyboard */,
+				BB4ABBED1CE39C4A0096DA35 /* Info.plist */,
 				BB4ABBDD1CE39C4A0096DA35 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +195,63 @@
 			path = MCodingChallengeTests;
 			sourceTree = "<group>";
 		};
+		BB4ABC011CE39D230096DA35 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABBE51CE39C4A0096DA35 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BB4ABC021CE39D2E0096DA35 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AFE561CE53AC200314FAF /* UserSearchDetailsVC */,
+				BB1AFE551CE53A8700314FAF /* CurrentFiveDaysDetailVC */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4ABC061CE39DD10096DA35 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABC031CE39DAB0096DA35 /* BackendUtility.h */,
+				BB4ABC041CE39DAB0096DA35 /* BackendUtility.m */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		BB4ABC0F1CE3A2C00096DA35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AFE571CE5558200314FAF /* Social.framework */,
+				BB4ABC0D1CE3A2A90096DA35 /* Foundation.framework */,
+				BB4ABC0B1CE3A2A00096DA35 /* QuartzCore.framework */,
+				BB4ABC091CE3A2920096DA35 /* CoreLocation.framework */,
+				BB4ABC071CE3A28A0096DA35 /* MapKit.framework */,
+				4AD64BFBA986EBA1FB5CCABE /* libPods-MCodingChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB4ABC161CE3BB240096DA35 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ABC131CE3A5E80096DA35 /* MTableViewCell.h */,
+				BB4ABC141CE3A5E80096DA35 /* MTableViewCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		BB4ABC1D1CE3F82E0096DA35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AFE531CE53A3D00314FAF /* CurrentFiveDaysModel */,
+				BB1AFE541CE53A4E00314FAF /* UserSearchModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB4ABBFB1CE39C4A0096DA35 /* Build configuration list for PBXNativeTarget "MCodingChallenge" */;
 			buildPhases = (
+				8B9A268DC2C51473FE73F1BE /* Check Pods Manifest.lock */,
 				BB4ABBD51CE39C4A0096DA35 /* Sources */,
 				BB4ABBD61CE39C4A0096DA35 /* Frameworks */,
 				BB4ABBD71CE39C4A0096DA35 /* Resources */,
+				05457C7133AD615053C1C1A4 /* Embed Pods Frameworks */,
+				DE0A90562548A5C242D21AA8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +350,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05457C7133AD615053C1C1A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCodingChallenge/Pods-MCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9A268DC2C51473FE73F1BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0A90562548A5C242D21AA8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCodingChallenge/Pods-MCodingChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB4ABBD51CE39C4A0096DA35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -213,7 +405,12 @@
 			files = (
 				BB4ABBE41CE39C4A0096DA35 /* ViewController.m in Sources */,
 				BB4ABBE11CE39C4A0096DA35 /* AppDelegate.m in Sources */,
+				BB4ABC151CE3A5E80096DA35 /* MTableViewCell.m in Sources */,
+				BB4ABC191CE3D6330096DA35 /* UserSearchDetailsViewController.m in Sources */,
+				BB4ABC1C1CE3F8240096DA35 /* DetailWeather.m in Sources */,
 				BB4ABBDE1CE39C4A0096DA35 /* main.m in Sources */,
+				BB4ABC051CE39DAB0096DA35 /* BackendUtility.m in Sources */,
+				BB4ABC201CE3FB530096DA35 /* SearchedWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +536,7 @@
 		};
 		BB4ABBFC1CE39C4A0096DA35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BBEA08786E75CA6BF3B446 /* Pods-MCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MCodingChallenge/Info.plist;
@@ -350,6 +548,7 @@
 		};
 		BB4ABBFD1CE39C4A0096DA35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0C80F75A1C7A6FC8ACC4E5 /* Pods-MCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MCodingChallenge/Info.plist;
@@ -402,6 +601,7 @@
 				BB4ABBFD1CE39C4A0096DA35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB4ABBFE1CE39C4A0096DA35 /* Build configuration list for PBXNativeTarget "MCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +610,7 @@
 				BB4ABC001CE39C4A0096DA35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
